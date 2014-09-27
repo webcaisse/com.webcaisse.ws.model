@@ -1,6 +1,6 @@
 package com.webcaisse.ws.model;
 
-public class Famille {
+public class FamilleOut {
 
 	private String libelle;
 

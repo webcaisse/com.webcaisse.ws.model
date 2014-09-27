@@ -1,6 +1,6 @@
 package com.webcaisse.ws.model;
 
-public class UserVo {
+public class UserOut {
 
 	private String nom;
 	
