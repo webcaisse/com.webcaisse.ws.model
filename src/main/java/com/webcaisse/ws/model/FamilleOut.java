@@ -4,7 +4,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 
 
 @XmlRootElement
-public class Famille {
+public class FamilleOut {
 
 	private String libelle;
 
