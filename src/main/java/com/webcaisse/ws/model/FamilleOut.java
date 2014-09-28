@@ -1,9 +1,5 @@
 package com.webcaisse.ws.model;
 
-import javax.xml.bind.annotation.XmlRootElement;
-
-
-@XmlRootElement
 public class FamilleOut {
 
 	private String libelle;
