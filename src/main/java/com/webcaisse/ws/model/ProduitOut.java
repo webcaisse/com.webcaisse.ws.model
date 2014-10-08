@@ -36,10 +36,18 @@ import java.util.List;
 	public void setDescription(String description) {
 		this.description = description;
 	}
+//
+//	public Double getPrix() {
+//		return prix;
+//	}
+//
+//	public void setPrix(Double prix) {
+//		this.prix = prix;
+//	}
 
 	public List<PrixOut> getPrix() {
 		return prix;
-	}
+		}
 
 	public void setPrix(List<PrixOut> prix) {
 		this.prix = prix;
