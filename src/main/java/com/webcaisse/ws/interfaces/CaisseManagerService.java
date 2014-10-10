@@ -29,5 +29,7 @@ public interface CaisseManagerService {
 	@WebMethod 
 	public List<ProduitOut> getProductsByFamilly (Long familleId) ;
 	
-
+	@WebMethod 
+	public ProduitOut loadProductById(Long produitId) ;
+	
 }

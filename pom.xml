@@ -5,7 +5,7 @@
 		<groupId>com.webcaisse</groupId>
 		<artifactId>webCaisseParent</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
-	</parent>
+</parent>
 	<groupId>com.webcaisse.model</groupId>
 	<artifactId>com.webcaisse.ws.model</artifactId>
 	</project>

@@ -2,17 +2,24 @@ package com.webcaisse.ws.model;
 
 import java.util.List;
 
+public class ProduitOut {
 
-
-    public class ProduitOut {
-	
-    private String libelle;
+	private String libelle;
 	private String description;
-	
-	private List<PrixOut> prix ;
-	
+
+	private List<PrixOut> prixOut;
+
 	private Integer qteStock;
-	
+	private Long id;
+
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
 	public String getLibelle() {
 		return libelle;
 	}
@@ -36,23 +43,13 @@ import java.util.List;
 	public void setDescription(String description) {
 		this.description = description;
 	}
-//
-//	public Double getPrix() {
-//		return prix;
-//	}
-//
-//	public void setPrix(Double prix) {
-//		this.prix = prix;
-//	}
 
-	public List<PrixOut> getPrix() {
-		return prix;
-		}
-
-	public void setPrix(List<PrixOut> prix) {
-		this.prix = prix;
+	public List<PrixOut> getPrixOut() {
+		return prixOut;
 	}
 
-
+	public void setPrixOut(List<PrixOut> prixOut) {
+		this.prixOut = prixOut;
+	}
 
 }
