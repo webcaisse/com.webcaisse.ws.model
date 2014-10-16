@@ -7,7 +7,10 @@ import javax.jws.WebMethod;
 import javax.jws.WebService;
 
 
+
+
 import com.webcaisse.ws.model.FamilleOut;
+import com.webcaisse.ws.model.PanierOut;
 import com.webcaisse.ws.model.ProduitIn;
 import com.webcaisse.ws.model.ProduitOut;
 
@@ -31,5 +34,8 @@ public interface CaisseManagerService {
 	
 	@WebMethod 
 	public ProduitOut loadProductById(Long produitId) ;
+	
+	@WebMethod 
+	public PanierOut ajouterProduitAuPanier(ProduitOut p, Long idPanier) ; 
 	
 }
