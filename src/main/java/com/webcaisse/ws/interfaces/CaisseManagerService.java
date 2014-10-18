@@ -35,7 +35,7 @@ public interface CaisseManagerService {
 	@WebMethod 
 	public ProduitOut loadProductById(Long produitId) ;
 	
-	@WebMethod 
-	public PanierOut ajouterProduitAuPanier(ProduitOut p, Long idPanier) ; 
+//	@WebMethod 
+//	public PanierOut ajouterProduitAuPanier(ProduitOut p, Long idPanier) ; 
 	
 }

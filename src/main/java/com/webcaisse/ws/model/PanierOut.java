@@ -8,6 +8,14 @@ public class PanierOut {
 
 	private Integer qte ;
 	private Float remise ;
+	private String libelle ;
+
+	public String getLibelle() {
+		return libelle;
+	}
+	public void setLibelle(String libelle) {
+		this.libelle = libelle;
+	}
 
 	private List<ProduitOut> produits ;
 	
