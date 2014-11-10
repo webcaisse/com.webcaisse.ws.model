@@ -10,6 +10,8 @@ import javax.jws.WebService;
 
 
 
+
+
 import com.webcaisse.ws.model.CommandeIn;
 import com.webcaisse.ws.model.FamilleOut;
 import com.webcaisse.ws.model.PanierOut;
@@ -22,7 +24,7 @@ public interface CaisseManagerService {
 
 	
 	@WebMethod
-	public List<FamilleOut> getFamillesActivees ();
+	public List<FamilleOut> getFamillesActivees (Long idSociete);
 	
 	@WebMethod 
 	public List<FamilleOut> getProduitParFamilleReference (String reference);
