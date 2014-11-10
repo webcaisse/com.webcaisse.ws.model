@@ -14,7 +14,7 @@ public class CommandeIn {
 	
 	private List<LigneCommandeIn> lignesCommandesIn = new ArrayList<LigneCommandeIn>();
 	private Date dateCreation ;
-	private Integer idSociete ;
+	private Long idSociete ;
 	private Long idUser ;
 	
 	public List<LigneCommandeIn> getLignesCommandesIn() {
@@ -29,10 +29,10 @@ public class CommandeIn {
 	public void setDateCreation(Date dateCreation) {
 		this.dateCreation = dateCreation;
 	}
-	public Integer getIdSociete() {
+	public Long getIdSociete() {
 		return idSociete;
 	}
-	public void setIdSociete(Integer idSociete) {
+	public void setIdSociete(Long idSociete) {
 		this.idSociete = idSociete;
 	}
 	public Long getIdUser() {
