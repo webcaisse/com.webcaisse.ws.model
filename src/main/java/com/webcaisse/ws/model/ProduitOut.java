@@ -6,11 +6,19 @@ public class ProduitOut {
 
 	private String libelle;
 	private String description;
-
 	private List<PrixOut> prixOut;
-
 	private Integer qteStock;
 	private Long id;
+	private String couleur ;
+
+	
+	public String getCouleur() {
+		return couleur;
+	}
+
+	public void setCouleur(String couleur) {
+		this.couleur = couleur;
+	}
 
 	public Long getId() {
 		return id;

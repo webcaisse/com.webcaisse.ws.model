@@ -5,6 +5,16 @@ public class FamilleOut {
 	private String libelle;
 	
 	private Long id;
+	
+	private String couleur ;
+
+	public String getCouleur() {
+		return couleur;
+	}
+
+	public void setCouleur(String couleur) {
+		this.couleur = couleur;
+	}
 
 	public String getLibelle() {
 		return libelle;
