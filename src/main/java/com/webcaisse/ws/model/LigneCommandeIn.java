@@ -21,6 +21,19 @@ public class LigneCommandeIn {
 	 * c'est le prix finale unitaire de produit apres le remise
 	 */
 	private Double prix;
+	
+	private Double total ;
+	
+	
+
+
+	public Double getTotal() {
+		return total;
+	}
+
+	public void setTotal(Double total) {
+		this.total = total;
+	}
 
 	public Long getIdProduit() {
 		return idProduit;
