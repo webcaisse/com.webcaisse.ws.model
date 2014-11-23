@@ -14,17 +14,8 @@ public class CommandeIn {
 	
 	private List<LigneCommandeIn> lignesCommandesIn = new ArrayList<LigneCommandeIn>();
 	private Date dateCreation ;
-//	private Long idSociete ;
-//	private Long idUser ;
 	private Long idSession ;
-	//private Long idCommande ;
 	
-//    public Long getIdCommande() {
-//		return idCommande;
-//	}
-//	public void setIdCommande(Long idCommande) {
-//		this.idCommande = idCommande;
-//	}
 	private Double regCheque;
 	private Double regCB;
 	private Double regEspece;
