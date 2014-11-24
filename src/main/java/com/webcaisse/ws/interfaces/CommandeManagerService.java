@@ -10,9 +10,6 @@ import com.webcaisse.ws.model.CommandeOut;
 @WebService
 public interface CommandeManagerService {
 
-	
-	
-	
 	public List<CommandeOut> rechercherCommande(Long idSession) ;
 
 	

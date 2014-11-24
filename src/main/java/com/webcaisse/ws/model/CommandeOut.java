@@ -7,6 +7,20 @@ public class CommandeOut {
 	
 	private Date dateCommande;
 	private String etat ;
+	private String libelleProduit ; 
+
+	
+	
+
+	
+
+	public String getLibelleProduit() {
+		return libelleProduit;
+	}
+
+	public void setLibelleProduit(String libelleProduit) {
+		this.libelleProduit = libelleProduit;
+	}
 
 	public String getEtat() {
 		return etat;
