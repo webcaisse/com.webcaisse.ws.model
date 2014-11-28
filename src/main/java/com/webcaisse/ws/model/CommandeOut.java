@@ -10,9 +10,6 @@ public class CommandeOut {
 	private String libelleProduit ; 
 
 	
-	
-
-	
 
 	public String getLibelleProduit() {
 		return libelleProduit;
