@@ -10,8 +10,17 @@ public class ProduitOut {
 	private Integer qteStock;
 	private Long id;
 	private String couleur ;
+	private Long familleId;
 
 	
+	public Long getFamilleId() {
+		return familleId;
+	}
+
+	public void setFamilleId(Long familleId) {
+		this.familleId = familleId;
+	}
+
 	public String getCouleur() {
 		return couleur;
 	}
