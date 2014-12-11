@@ -1,20 +1,14 @@
 package com.webcaisse.ws.model;
 
+import java.util.List;
+
 public class ProduitIn {
 	
 	
 	private String libelle ;
 	private String code ;
-	private Long idSociete ;
+	private List<Double> prix;
 
-
-	
-	public Long getIdSociete() {
-		return idSociete;
-	}
-	public void setIdSociete(Long idSociete) {
-		this.idSociete = idSociete;
-	}
 	public String getLibelle() {
 		return libelle;
 	}
@@ -27,6 +21,11 @@ public class ProduitIn {
 	public void setCode(String code) {
 		this.code = code;
 	}
-
+	public List<Double> getPrix() {
+		return prix;
+	}
+	public void setPrix(List<Double> prix) {
+		this.prix = prix;
+	}
 	
 }
