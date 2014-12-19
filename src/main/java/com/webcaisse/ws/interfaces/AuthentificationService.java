@@ -11,4 +11,7 @@ public interface AuthentificationService {
 	
 	@WebMethod
 	public UserOut getAuthentification(String userName, String password, String codeSociete ) ;
+	
+	@WebMethod
+	public UserOut findByUserName(String userName) ;
 }
