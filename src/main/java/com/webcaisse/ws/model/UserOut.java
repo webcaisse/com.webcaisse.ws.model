@@ -2,6 +2,8 @@ package com.webcaisse.ws.model;
 
 public class UserOut {
 
+	private Long id;
+	
 	private String nom;
 	
 	private String prenom;
@@ -60,6 +62,14 @@ public class UserOut {
 
 	public void setNomSociete(String nomSociete) {
 		this.nomSociete = nomSociete;
+	}
+
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
 	}
 	
 	
