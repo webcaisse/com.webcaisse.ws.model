@@ -13,6 +13,10 @@ public interface SessionManagerService {
 	@WebMethod
 	public Long ouvrirSession(Long idUser) ;
 	
+	@WebMethod 
+	
+	public void fermerSession(Long idSession) ;
+	
 
 	
 }
