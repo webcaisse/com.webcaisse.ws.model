@@ -12,6 +12,8 @@ public class UserOut {
 	
 	private String nomSociete;
 	
+	private Long societeId;
+	
 	private String username ;
 	
 	private String password ;
@@ -71,6 +73,13 @@ public class UserOut {
 	public void setId(Long id) {
 		this.id = id;
 	}
-	
+
+	public Long getSocieteId() {
+		return societeId;
+	}
+
+	public void setSocieteId(Long societeId) {
+		this.societeId = societeId;
+	}
 	
 }
