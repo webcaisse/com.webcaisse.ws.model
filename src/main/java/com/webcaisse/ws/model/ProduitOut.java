@@ -11,6 +11,7 @@ public class ProduitOut {
 	private Long id;
 	private String couleur ;
 	private Long familleId;
+	private String code;
 
 	
 	public Long getFamilleId() {
@@ -67,6 +68,14 @@ public class ProduitOut {
 
 	public void setPrixOut(List<PrixOut> prixOut) {
 		this.prixOut = prixOut;
+	}
+
+	public String getCode() {
+		return code;
+	}
+
+	public void setCode(String code) {
+		this.code = code;
 	}
 
 }
