@@ -12,7 +12,10 @@ import javax.jws.WebService;
 
 
 
+
+
 import com.webcaisse.ws.model.CommandeIn;
+import com.webcaisse.ws.model.FamilleIn;
 import com.webcaisse.ws.model.FamilleOut;
 import com.webcaisse.ws.model.PanierOut;
 import com.webcaisse.ws.model.ProduitIn;
@@ -38,6 +41,9 @@ public interface CaisseManagerService {
 	@WebMethod 
 	public ProduitOut loadProductById(Long produitId) ;
 	
+	@WebMethod 
+	public FamilleOut loadFamilleById(Long IdFamille) ;
+	
     @WebMethod
     public Long sauvegarderCommande(CommandeIn in) ;
     
@@ -46,5 +52,14 @@ public interface CaisseManagerService {
     
     @WebMethod 
     public void updateProduit(ProduitIn p);
+    
+    @WebMethod 
+	public void ajouterFamille(FamilleIn f) ;
+    
+    @WebMethod
+    public void supprimerFamille(Long idFamille);
+    
+    @WebMethod 
+    public void updateFamille(FamilleIn f);
 	
 }
