@@ -12,6 +12,6 @@ public interface ParametreManagerService {
 	
 	
 	@WebMethod
-	public void sauvegarderParametre(List<ParametreIn> parametres ) ;
+	public void sauvegarderParametre(ParametreIn parametre ) ;
 
 }

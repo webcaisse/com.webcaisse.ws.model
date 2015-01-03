@@ -1,6 +1,5 @@
 package com.webcaisse.ws.model;
 
-import java.util.Date;
 
 public class ClientIn {
 	
