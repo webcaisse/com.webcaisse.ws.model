@@ -1,23 +1,13 @@
 package com.webcaisse.ws.interfaces;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import javax.jws.WebMethod;
 import javax.jws.WebService;
 
-
-
-
-
-
-
-
-
 import com.webcaisse.ws.model.CommandeIn;
 import com.webcaisse.ws.model.FamilleIn;
 import com.webcaisse.ws.model.FamilleOut;
-import com.webcaisse.ws.model.PanierOut;
 import com.webcaisse.ws.model.ProduitIn;
 import com.webcaisse.ws.model.ProduitOut;
 

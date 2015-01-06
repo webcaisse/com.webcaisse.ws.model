@@ -16,8 +16,17 @@ public class UserIn {
 	
 	private String password ;
 	
-	//private String type ;
+	private Integer profil;
 	
+	private Boolean enabled;
+
+	public Boolean getEnabled() {
+		return enabled;
+	}
+
+	public void setEnabled(Boolean enabled) {
+		this.enabled = enabled;
+	}
 
 	public String getNom() {
 		return nom;
@@ -75,5 +84,12 @@ public class UserIn {
 		this.password = password;
 	}
 
-	
+	public Integer getProfil() {
+		return profil;
+	}
+
+	public void setProfil(Integer profil) {
+		this.profil = profil;
+	}
+
 }
