@@ -17,6 +17,9 @@ public interface CommandeManagerService {
 	public List<CommandeOut> rechercherCommande(Long idSession) ;
 	@WebMethod
 	public List<CommandeOut> rechercherCommandeParDate(Long idSociete, Date dateCommande) ;
+	
+	@WebMethod
+	public CommandeOut  loadCommandeById( Long idCommande) ;
 
 	
 }

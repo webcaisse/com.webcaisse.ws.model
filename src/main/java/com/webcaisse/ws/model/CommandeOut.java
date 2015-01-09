@@ -1,15 +1,56 @@
 package com.webcaisse.ws.model;
 
 import java.util.Date;
+import java.util.List;
 
 public class CommandeOut {
 
 	
 	private Date dateCommande;
 	private String etat ;
-	private String libelleProduit ; 
+	private String libelleProduit ;
+	private String mode ;
+	private Integer quantite;
+	private Long id ;
+	
+	private List<LigneCommandeOut >ligneCommandeOut ;
+	
 
 	
+	
+	
+
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public List<LigneCommandeOut> getLigneCommandeOut() {
+		return ligneCommandeOut;
+	}
+
+	public void setLigneCommandeOut(List<LigneCommandeOut> ligneCommandeOut) {
+		this.ligneCommandeOut = ligneCommandeOut;
+	}
+
+	public Integer getQuantite() {
+		return quantite;
+	}
+
+	public void setQuantite(Integer quantite) {
+		this.quantite = quantite;
+	}
+
+	public String getMode() {
+		return mode;
+	}
+
+	public void setMode(String mode) {
+		this.mode = mode;
+	}
 
 	public String getLibelleProduit() {
 		return libelleProduit;
