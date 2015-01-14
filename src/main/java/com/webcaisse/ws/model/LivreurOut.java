@@ -6,8 +6,17 @@ public class LivreurOut {
 	private String nom;
 	private String prenom;
 	private String adresse;	
+	private Long id ;
 
 	
+	
+	
+	public Long getId() {
+		return id;
+	}
+	public void setId(Long id) {
+		this.id = id;
+	}
 	public String getNom() {
 		return nom;
 	}

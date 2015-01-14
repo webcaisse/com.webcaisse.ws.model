@@ -2,6 +2,8 @@ package com.webcaisse.ws.model;
 
 public class LivreurIn {
 	
+	private Long id  ;
+	
     private String nom;
 	
 	private String prenom;
@@ -60,6 +62,14 @@ public class LivreurIn {
 
 	public void setSocieteId(Long societeId) {
 		this.societeId = societeId;
+	}
+
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
 	}
 	
 	

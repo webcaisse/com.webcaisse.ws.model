@@ -20,6 +20,9 @@ public interface CommandeManagerService {
 	
 	@WebMethod
 	public CommandeOut  loadCommandeById( Long idCommande) ;
+	
+	@WebMethod
+	public List<CommandeOut>  getCommandesByIdLivreur(Long idLivreur) ;
 
 	
 }

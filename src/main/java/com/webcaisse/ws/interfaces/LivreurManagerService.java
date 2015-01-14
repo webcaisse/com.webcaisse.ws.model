@@ -20,5 +20,7 @@ public interface LivreurManagerService {
 	public List<LivreurOut> rechercherLivreur(Long idSociete) ;
 	
 	
+	@WebMethod
+	public void  affecterLivreurToCommande(Long idLivreur , Long idCommande) ;
 	
 }

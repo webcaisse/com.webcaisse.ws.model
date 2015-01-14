@@ -12,6 +12,7 @@ public class CommandeOut {
 	private String mode ;
 	private Integer quantite;
 	private Long id ;
+	private String nomLivreur ;
 	
 	private List<LigneCommandeOut >ligneCommandeOut ;
 	
@@ -19,6 +20,14 @@ public class CommandeOut {
 	
 	
 	
+
+	public String getNomLivreur() {
+		return nomLivreur;
+	}
+
+	public void setNomLivreur(String nomLivreur) {
+		this.nomLivreur = nomLivreur;
+	}
 
 	public Long getId() {
 		return id;
