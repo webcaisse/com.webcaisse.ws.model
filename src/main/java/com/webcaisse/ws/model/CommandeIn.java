@@ -15,18 +15,27 @@ public class CommandeIn {
 	private List<LigneCommandeIn> lignesCommandesIn = new ArrayList<LigneCommandeIn>();
 	private Date dateCreation ;
 	private Long idSession ;
-	
 	private Double regCheque;
 	private Double regCB;
 	private Double regEspece;
 	private Double regCarteFidelite;
-	
 	private String mode;
-	
 	private Double montant ;
-	
 	private String notes ;
+	private ClientIn clientIn ;
 	
+	
+	
+
+
+
+	
+	public ClientIn getClientIn() {
+		return clientIn;
+	}
+	public void setClientIn(ClientIn clientIn) {
+		this.clientIn = clientIn;
+	}
 	public String getNotes() {
 		return notes;
 	}
@@ -89,18 +98,7 @@ public class CommandeIn {
 	public void setDateCreation(Date dateCreation) {
 		this.dateCreation = dateCreation;
 	}
-//	public Long getIdSociete() {
-//		return idSociete;
-//	}
-//	public void setIdSociete(Long idSociete) {
-//		this.idSociete = idSociete;
-//	}
-//	public Long getIdUser() {
-//		return idUser;
-//	}
-//	public void setIdUser(Long idUser) {
-//		this.idUser = idUser;
-//	}
+
 	public Long getIdSession() {
 		return idSession;
 	}

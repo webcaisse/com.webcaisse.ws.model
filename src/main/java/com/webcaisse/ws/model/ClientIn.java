@@ -6,7 +6,6 @@ public class ClientIn {
 	
 	private String telephone ;
 	private String email ;
-	private Long id  ;
 	private  String nom ;
     private String code1;
 	private String code2;
@@ -19,6 +18,8 @@ public class ClientIn {
 	private String nomRue ;
 	private String ville ;
 	private String prenom ;
+	private Long idSociete ;
+	
 	
 	
 	
@@ -83,19 +84,11 @@ public class ClientIn {
 		this.ville = ville;
 	}
 	
-	private Long idSociete ;
-	
 	public Long getIdSociete() {
 		return idSociete;
 	}
 	public void setIdSociete(Long idSociete) {
 		this.idSociete = idSociete;
-	}
-	public Long getId() {
-		return id;
-	}
-	public void setId(Long id) {
-		this.id = id;
 	}
 	
 
