@@ -29,5 +29,8 @@ public interface ClientManagerService {
 	 
 	 @WebMethod 
   public ClientOut loadClientById(Long IdClient) ;
+	 
+	 @WebMethod 
+   public List<ClientOut> autoCompleteClient(String param) ;
 	
 }

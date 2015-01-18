@@ -19,10 +19,17 @@ public class ClientIn {
 	private String ville ;
 	private String prenom ;
 	private Long idSociete ;
+	private Long id ;
 	
 	
 	
 	
+	public Long getId() {
+		return id;
+	}
+	public void setId(Long id) {
+		this.id = id;
+	}
 	public String getNomRue() {
 		return nomRue;
 	}
