@@ -23,13 +23,34 @@ public class CommandeIn {
 	private Double montant ;
 	private String notes ;
 	private ClientIn clientIn ;
+	private Long id ;
+	private String etat ;
 	
-	
+	private EtatCommandeIn etatCommandeIn ;
 	
 
 
-
 	
+	
+	
+	public String getEtat() {
+		return etat;
+	}
+	public void setEtat(String etat) {
+		this.etat = etat;
+	}
+	public Long getId() {
+		return id;
+	}
+	public void setId(Long id) {
+		this.id = id;
+	}
+	public EtatCommandeIn getEtatCommandeIn() {
+		return etatCommandeIn;
+	}
+	public void setEtatCommandeIn(EtatCommandeIn etatCommandeIn) {
+		this.etatCommandeIn = etatCommandeIn;
+	}
 	public ClientIn getClientIn() {
 		return clientIn;
 	}
