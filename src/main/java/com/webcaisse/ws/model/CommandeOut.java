@@ -7,19 +7,17 @@ public class CommandeOut {
 
 	
 	private Date dateCommande;
-	private String etat ;
+	
 	private String libelleProduit ;
 	private String mode ;
+	
+	private EtatCommandeOut etatCommandeOut ;
+	
 	private Integer quantite;
 	private Long id ;
 	private String nomLivreur ;
 	
 	private List<LigneCommandeOut >ligneCommandeOut ;
-	
-
-	
-	
-	
 
 	public String getNomLivreur() {
 		return nomLivreur;
@@ -69,14 +67,6 @@ public class CommandeOut {
 		this.libelleProduit = libelleProduit;
 	}
 
-	public String getEtat() {
-		return etat;
-	}
-
-	public void setEtat(String etat) {
-		this.etat = etat;
-	}
-
 	public Date getDateCommande() {
 		return dateCommande;
 	}
@@ -84,4 +74,14 @@ public class CommandeOut {
 	public void setDateCommande(Date dateCommande) {
 		this.dateCommande = dateCommande;
 	}
+
+	public EtatCommandeOut getEtatCommandeOut() {
+		return etatCommandeOut;
+	}
+
+	public void setEtatCommandeOut(EtatCommandeOut etatCommandeOut) {
+		this.etatCommandeOut = etatCommandeOut;
+	}
+	
+	
 }
