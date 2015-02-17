@@ -5,8 +5,17 @@ public class LigneCommandeOut {
 	private Integer quantite;
 	private String Libelle  ;
 	private Double prixUnitaire ;
+	private Double total ;
 	
 	
+
+	public Double getTotal() {
+		return total;
+	}
+
+	public void setTotal(Double total) {
+		this.total = total;
+	}
 
 	public Double getPrixUnitaire() {
 		return prixUnitaire;

@@ -31,6 +31,9 @@ public interface CommandeManagerService {
 	
 
 	@WebMethod
+	public void affecterEtatToCommandeAvecMode(String etatCommande ,Long idCommande,String modeCommande) ;
+	
+	@WebMethod
 	public void affecterEtatToCommande(String etatCommande ,Long idCommande) ;
 	
 }

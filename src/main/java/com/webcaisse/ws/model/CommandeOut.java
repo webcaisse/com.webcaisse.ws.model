@@ -16,8 +16,19 @@ public class CommandeOut {
 	private Integer quantite;
 	private Long id ;
 	private String nomLivreur ;
+	private Double montant ;
 	
 	private List<LigneCommandeOut >ligneCommandeOut ;
+
+	
+	
+	public Double getMontant() {
+		return montant;
+	}
+
+	public void setMontant(Double montant) {
+		this.montant = montant;
+	}
 
 	public String getNomLivreur() {
 		return nomLivreur;
