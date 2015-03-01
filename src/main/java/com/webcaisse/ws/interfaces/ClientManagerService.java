@@ -19,7 +19,7 @@ public interface ClientManagerService {
 	public List<ClientOut> rechercherClient(Long idSociete) ;
 	
 	 @WebMethod 
-	public void ajouterClient(ClientIn c) ;
+	public Long ajouterClient(ClientIn c) ;
 	 
 	 @WebMethod
    public void supprimerClient(Long idClient);
