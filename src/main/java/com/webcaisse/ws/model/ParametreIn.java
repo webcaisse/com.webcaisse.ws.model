@@ -4,8 +4,15 @@ import java.util.Date;
 
 public class ParametreIn {
 
+    private Long idSociete;
 	
- 
+	private Date dateCrea;
+	
+	private Date dateModif;
+	
+	private String valeur ;
+	
+	private String nomParametre;
 	
 	public Long getIdSociete() {
 		return idSociete;
@@ -47,13 +54,5 @@ public class ParametreIn {
 		this.nomParametre = nomParametre;
 	}
 
-	private Long idSociete;
 	
-	private Date dateCrea;
-	
-	private Date dateModif;
-	
-	private String valeur ;
-	
-	private String nomParametre;
 }

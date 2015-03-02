@@ -5,8 +5,10 @@ import java.util.List;
 import javax.jws.WebMethod;
 import javax.jws.WebService;
 
+
 import com.webcaisse.ws.model.ClientOut;
 import com.webcaisse.ws.model.ParametreIn;
+import com.webcaisse.ws.model.ParametreOut;
 import com.webcaisse.ws.model.UserIn;
 import com.webcaisse.ws.model.UserOut;
 
@@ -22,4 +24,10 @@ public interface ParametreManagerService {
 	
 	@WebMethod
 	public List<UserOut> rechercherUser(Long idSociete) ;
+	
+	@WebMethod
+	public List<ParametreOut> getHeaderReferences (Long idSociete) ;
+	
+	@WebMethod
+	List<ParametreOut> getFootersReferences(Long idSociete) ;
 }
