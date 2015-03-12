@@ -6,6 +6,8 @@ import javax.jws.WebMethod;
 import javax.jws.WebService;
 
 import com.webcaisse.ws.model.CommandeIn;
+import com.webcaisse.ws.model.DetailsModePaiementIn;
+import com.webcaisse.ws.model.DetailsModePaiementOut;
 import com.webcaisse.ws.model.FamilleIn;
 import com.webcaisse.ws.model.FamilleOut;
 import com.webcaisse.ws.model.ProduitIn;
@@ -18,9 +20,6 @@ public interface CaisseManagerService {
 	
 	@WebMethod
 	public List<FamilleOut> getFamillesActivees (Long idSociete);
-	
-	@WebMethod 
-	public List<FamilleOut> getProduitParFamilleReference (String reference);
 	
 	@WebMethod 
 	public void ajouterProduit(ProduitIn p) ;
@@ -51,5 +50,8 @@ public interface CaisseManagerService {
     
     @WebMethod 
     public void updateFamille(FamilleIn f);
+    
+    @WebMethod
+    public List<DetailsModePaiementOut> afficherDetailesModePaiement(DetailsModePaiementIn in);
 	
 }

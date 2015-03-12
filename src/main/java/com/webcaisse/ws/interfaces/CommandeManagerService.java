@@ -29,7 +29,6 @@ public interface CommandeManagerService {
 	@WebMethod
 	public List<CommandeOut>  getCommandesByEtat(String etatCommande) ;
 	
-
 	@WebMethod
 	public void affecterEtatToCommandeAvecMode(String etatCommande ,Long idCommande,String modeCommande) ;
 	
